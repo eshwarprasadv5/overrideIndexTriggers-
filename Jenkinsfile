@@ -1,12 +1,12 @@
 pipeline{
     agent any
     options{
-        overrideIndexTriggers(true)
+        overrideIndexTriggers(false)
     }
     stages{
         stage('Build'){
             steps{
-               echo "build done 2"
+               echo "build done 3"
             }
         }
     }
